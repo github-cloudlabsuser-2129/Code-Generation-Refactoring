@@ -1,6 +1,6 @@
 const axios = require('axios');
-const { formatWeatherData, displayError } = require('./utils/helpers');
-const { fetchWeatherData } = require('./api/weather');
+const { formatWeatherData, displayError } = require('./weather-app/src/utils/helpers');
+const { fetchWeatherData } = require('./weather-app/src/api/weather');
 
 const apiKey = process.env.OPENWEATHERMAP_API_KEY;
 
