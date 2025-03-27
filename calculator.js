@@ -21,7 +21,8 @@ class Calculator {
 
 // Example usage:
 const calculator = new Calculator();
-console.log(calculator.add(5, 3));       // Output: 8
-console.log(calculator.subtract(5, 3));  // Output: 2
-console.log(calculator.multiply(5, 3));  // Output: 15
-console.log(calculator.divide(5, 3));    // Output: 1.666...
+console.log("Add: ", calculator.add(5, 3)); // 8
+console.log("Subtract: ", calculator.subtract(5, 3)); // 2
+console.log("Multiply: ", calculator.multiply(5, 3)); // 15
+console.log("Divide: ", calculator.divide(5, 3)); // 1.666...
+console.log("Divide by zero: ", calculator.divide(5, 0)); // Error: Division by zero is not allowed.
